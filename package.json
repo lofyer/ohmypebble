@@ -1,0 +1,32 @@
+{
+  "name": "ohmypebble",
+  "author": "jiang",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "watchface"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "OhMyPebble",
+    "uuid": "97096d2d-65ca-4089-9f4d-5cfb69bffbd7",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "health"
+    ],
+    "messageKeys": [],
+    "resources": {
+      "media": []
+    }
+  }
+}
